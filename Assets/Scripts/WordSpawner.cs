@@ -1,113 +1,109 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class WordEntry
-{
-    public string word;
-    public Sprite sprite;
-}
-
 public class WordSpawner : MonoBehaviour
 {
-    public Camera targetCamera;              // camera van scherm 2
-    public GameObject wordPrefab;            // prefab met SpriteRenderer + BoxCollider2D
-    public List<WordEntry> words;            // koppel hier per woord de sprite
-    public float spawnPadding = 1f;          // marge tot de rand van het scherm, in world units
+    public Camera targetCamera;
+    public GameObject wordPrefab;
+    public List<WordData> allWords;   // eenmalig invullen in Inspector
+    public float spawnPadding = 1f;
 
     [Header("Overlap check")]
-    public float minDistanceBetweenWords = 1.5f; // minimale afstand tussen twee woorden
-    public int maxSpawnAttempts = 30;             // hoeveel keer opnieuw proberen bij overlap
+    public float minDistanceBetweenWords = 1.5f;
+    public int maxSpawnAttempts = 30;
 
     [Header("Start gedrag")]
     public bool spawnFirstWordOnStart = false;
 
     [Header("Stip op display 1")]
-    public Camera dotCamera;     // camera van Display 1
-    public GameObject dotPrefab; // simpele sprite (rondje), geen collider nodig
+    public Camera dotCamera;
+    public GameObject dotPrefab;
 
-    private int nextIndex = 0;
-    private readonly List<Vector3> spawnedPositions = new List<Vector3>();
+    private Queue<WordData> queue = new Queue<WordData>();
+    private readonly List<Transform> activeWords = new List<Transform>();
+
+    void Awake()
+    {
+        foreach (WordData w in allWords)
+        {
+            w.level = 1;
+            queue.Enqueue(w);
+        }
+    }
 
     void Start()
     {
-        if (spawnFirstWordOnStart)
-        {
-            SpawnNextWord();
-        }
+        if (spawnFirstWordOnStart) SpawnNextWord();
     }
 
-    // Roep deze aan om het eerstvolgende woord uit de lijst te spawnen
     public GameObject SpawnNextWord()
     {
-        if (nextIndex >= words.Count)
+        if (queue.Count == 0)
         {
-            Debug.LogWarning("Alle woorden zijn al gespawned.");
+            Debug.Log("Geen woorden meer in de queue.");
             return null;
         }
 
-        GameObject obj = SpawnWord(words[nextIndex]);
-        nextIndex++;
-
-        return obj;
+        return SpawnWord(queue.Dequeue());
     }
 
-    // Of roep deze aan om een specifiek woord op naam te spawnen
-    public GameObject SpawnWord(string wordName)
-    {
-        WordEntry entry = words.Find(w => w.word == wordName);
-        if (entry == null)
-        {
-            Debug.LogWarning($"Woord '{wordName}' niet gevonden in de lijst.");
-            return null;
-        }
-        return SpawnWord(entry);
-    }
-
-    private GameObject SpawnWord(WordEntry entry)
+    private GameObject SpawnWord(WordData data)
     {
         Vector3 pos = GetNonOverlappingPosition();
         GameObject obj = Instantiate(wordPrefab, pos, Quaternion.identity);
 
         SpriteRenderer sr = obj.GetComponent<SpriteRenderer>();
-        if (sr != null)
-        {
-            sr.sprite = entry.sprite;
-        }
+        if (sr != null) sr.sprite = data.GetCurrentSprite();
 
-        obj.name = entry.word;
-        spawnedPositions.Add(pos);
+        obj.name = $"{data.word}_lvl{data.level}";
 
-        // Stip aanmaken en koppelen
+        WordController controller = obj.AddComponent<WordController>();
+        controller.data = data;
+        controller.spawner = this;
+
         GameObject dotObj = Instantiate(dotPrefab);
-        dotObj.name = entry.word + "_Dot";
+        dotObj.name = data.word + "_Dot";
         WordDotFollower follower = obj.AddComponent<WordDotFollower>();
         follower.Init(dotObj.transform, targetCamera, dotCamera);
 
+        activeWords.Add(obj.transform);
         return obj;
+    }
+
+    public void OnWordResolved(WordData data, bool wasCorrect)
+    {
+        activeWords.RemoveAll(t => t == null);
+
+        bool completed = wasCorrect && data.level > data.MaxLevel;
+        if (completed)
+        {
+            Debug.Log(data.word + " is voltooid!");
+        }
+        else
+        {
+            queue.Enqueue(data);
+        }
+
+        SpawnNextWord();
     }
 
     private Vector3 GetNonOverlappingPosition()
     {
+        activeWords.RemoveAll(t => t == null);
         Vector3 pos = GetRandomPositionOnScreen();
 
         for (int attempt = 0; attempt < maxSpawnAttempts; attempt++)
         {
             bool overlaps = false;
-            foreach (Vector3 existing in spawnedPositions)
+            foreach (Transform t in activeWords)
             {
-                if (Vector3.Distance(pos, existing) < minDistanceBetweenWords)
+                if (Vector3.Distance(pos, t.position) < minDistanceBetweenWords)
                 {
                     overlaps = true;
                     break;
                 }
             }
-
-            if (!overlaps)
-            {
-                return pos;
-            }
-
+            if (!overlaps) return pos;
             pos = GetRandomPositionOnScreen();
         }
 
@@ -127,5 +123,3 @@ public class WordSpawner : MonoBehaviour
         return new Vector3(x, y, 0f);
     }
 }
-
-    // Reset

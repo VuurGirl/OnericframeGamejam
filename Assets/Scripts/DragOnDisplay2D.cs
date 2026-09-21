@@ -5,6 +5,7 @@ public class DragOnDisplay2D : MonoBehaviour
 {
     public Camera dragCamera;
     public int displayIndex = 1;
+    public LayerMask dropZoneLayer; // layer met alleen de 5 DropZones
 
     private Transform dragging;
     private float dragDepth;
@@ -14,23 +15,13 @@ public class DragOnDisplay2D : MonoBehaviour
         Vector2 rawMouse = Mouse.current.position.ReadValue();
         Vector3 mousePos = Display.RelativeMouseAt(rawMouse);
         bool multiDisplay = Display.displays.Length > 1;
-
         int currentDisplay = multiDisplay ? (int)mousePos.z : 0;
 
-        if (multiDisplay && currentDisplay != displayIndex)
-        {
-            return;
-        }
+        if (multiDisplay && currentDisplay != displayIndex) return;
 
-        Vector3 screenPos;
-        if (multiDisplay)
-        {
-            screenPos = new Vector3(mousePos.x, mousePos.y, 0f);
-        }
-        else
-        {
-            screenPos = rawMouse;
-        }
+        Vector3 screenPos = multiDisplay
+            ? new Vector3(mousePos.x, mousePos.y, 0f)
+            : (Vector3)rawMouse;
 
         Vector3 worldPos = dragCamera.ScreenToWorldPoint(
             new Vector3(screenPos.x, screenPos.y, dragCamera.nearClipPlane + 1f));
@@ -39,7 +30,7 @@ public class DragOnDisplay2D : MonoBehaviour
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             Collider2D hit = Physics2D.OverlapPoint(worldPos2D);
-            if (hit != null)
+            if (hit != null && hit.GetComponent<WordController>() != null)
             {
                 dragging = hit.transform;
                 dragDepth = dragCamera.WorldToScreenPoint(dragging.position).z;
@@ -47,6 +38,11 @@ public class DragOnDisplay2D : MonoBehaviour
         }
         else if (Mouse.current.leftButton.wasReleasedThisFrame)
         {
+            if (dragging != null)
+            {
+                WordController word = dragging.GetComponent<WordController>();
+                word?.HandleDrop(worldPos2D, dropZoneLayer);
+            }
             dragging = null;
         }
 
