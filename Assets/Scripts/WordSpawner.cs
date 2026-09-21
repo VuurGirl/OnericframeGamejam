@@ -22,6 +22,10 @@ public class WordSpawner : MonoBehaviour
     [Header("Start gedrag")]
     public bool spawnFirstWordOnStart = false;
 
+    [Header("Stip op display 1")]
+    public Camera dotCamera;     // camera van Display 1
+    public GameObject dotPrefab; // simpele sprite (rondje), geen collider nodig
+
     private int nextIndex = 0;
     private readonly List<Vector3> spawnedPositions = new List<Vector3>();
 
@@ -44,6 +48,7 @@ public class WordSpawner : MonoBehaviour
 
         GameObject obj = SpawnWord(words[nextIndex]);
         nextIndex++;
+
         return obj;
     }
 
@@ -72,6 +77,13 @@ public class WordSpawner : MonoBehaviour
 
         obj.name = entry.word;
         spawnedPositions.Add(pos);
+
+        // Stip aanmaken en koppelen
+        GameObject dotObj = Instantiate(dotPrefab);
+        dotObj.name = entry.word + "_Dot";
+        WordDotFollower follower = obj.AddComponent<WordDotFollower>();
+        follower.Init(dotObj.transform, targetCamera, dotCamera);
+
         return obj;
     }
 
