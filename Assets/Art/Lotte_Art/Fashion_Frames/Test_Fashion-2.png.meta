@@ -116,7 +116,7 @@ TextureImporter:
         width: 1340
         height: 1394
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -129,55 +129,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Test_Fashion-2_1
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 1797
-        width: 25
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ca5b25acd7791890800000000000000
-      internalID: -7486821115979146553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Test_Fashion-2_2
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 1794
-        width: 12
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d01da1b4cfabc4620800000000000000
-      internalID: 2759786264425845005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bd71fcf83edf84f2e850ec943e749d6d
     internalID: 0
     vertices: []
     indices: 
