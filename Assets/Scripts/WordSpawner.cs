@@ -84,7 +84,12 @@ public class WordSpawner : MonoBehaviour
             queue.Enqueue(data);
         }
 
-        SpawnNextWord();
+        ScoreManager.Instance?.RegisterResult(wasCorrect, completed);
+
+        if (ScoreManager.Instance == null || !ScoreManager.Instance.IsGameEnded)
+        {
+            SpawnNextWord();
+        }
     }
 
     private Vector3 GetNonOverlappingPosition()

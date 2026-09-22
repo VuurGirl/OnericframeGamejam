@@ -7,23 +7,26 @@ public class WordController : MonoBehaviour
 
     public void HandleDrop(Vector2 worldPosition, LayerMask dropZoneLayer)
     {
+        Debug.Log($"[DROP-CHECK] Gedropt op wereldpositie: {worldPosition} | LayerMask waarde: {dropZoneLayer.value}");
+
+        DropZone[] allZones = FindObjectsOfType<DropZone>();
+        foreach (DropZone z in allZones)
+        {
+            Collider2D col = z.GetComponent<Collider2D>();
+            Debug.Log($"[ZONE-INFO] {z.name} | ZoneId: {z.zoneId} | Layer: {LayerMask.LayerToName(z.gameObject.layer)} | Bounds: {col.bounds}");
+        }
+
         Collider2D zoneCollider = Physics2D.OverlapPoint(worldPosition, dropZoneLayer);
         DropZone zone = zoneCollider != null ? zoneCollider.GetComponent<DropZone>() : null;
 
         bool correct = zone != null && zone.zoneId == data.correctZoneId;
 
-        if (correct)
-        {
-            data.level++;
-            // TODO: hier later de "goed"-animatie triggeren
-        }
-        else
-        {
-            data.level = Mathf.Max(1, data.level - 1);
-            // TODO: hier later de "fout"-animatie triggeren
-        }
+        Debug.Log($"[DROP] Woord: {data.word} | Zone gevonden: {(zone != null ? zone.zoneId.ToString() : "GEEN")} | Verwachte zone: {data.correctZoneId} | Correct: {correct} | Level vóór: {data.level}");
+
+        if (correct) data.level++;
+        else data.level = Mathf.Max(1, data.level - 1);
 
         spawner.OnWordResolved(data, correct);
-        Destroy(gameObject); // WordDotFollower.OnDestroy ruimt de stip vanzelf op
+        Destroy(gameObject);
     }
 }
