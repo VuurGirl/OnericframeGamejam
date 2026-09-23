@@ -75,6 +75,9 @@ public class WordSpawner : MonoBehaviour
         activeWords.RemoveAll(t => t == null);
 
         bool completed = wasCorrect && data.level > data.MaxLevel;
+
+        ZoneVisualManager.Instance?.UpdateZone(data.correctZoneId, data.level, completed);
+
         if (completed)
         {
             Debug.Log(data.word + " is voltooid!");
