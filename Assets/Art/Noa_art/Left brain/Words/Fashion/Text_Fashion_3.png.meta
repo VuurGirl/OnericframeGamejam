@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 3e99758fd143346069164753f4422e66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6476289798045740733
+    second: Text_Fashion_3_0
+  - first:
+      213: 1212920807849304733
+    second: Text_Fashion_3_1
+  - first:
+      213: 2748871093243221059
+    second: Text_Fashion_3_2
+  - first:
+      213: 4732898222381731151
+    second: Text_Fashion_3_3
+  - first:
+      213: 1623194984571177792
+    second: Text_Fashion_3_4
+  - first:
+      213: 8650688687895667173
+    second: Text_Fashion_3_5
+  - first:
+      213: -7812122305970771487
+    second: Text_Fashion_3_6
+  - first:
+      213: 5535852885062500778
+    second: Text_Fashion_3_7
+  - first:
+      213: -2466390636622676984
+    second: Text_Fashion_3_8
+  - first:
+      213: -2950563732046587911
+    second: Text_Fashion_3_9
+  - first:
+      213: -729871975185074395
+    second: Text_Fashion_3_10
+  - first:
+      213: -5955719813323694554
+    second: Text_Fashion_3_11
+  - first:
+      213: 1523658597656405509
+    second: Text_Fashion_3_12
+  - first:
+      213: 5371408630478383105
+    second: Text_Fashion_3_13
+  - first:
+      213: -3219786908629481076
+    second: Text_Fashion_3_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text_Fashion_3_0
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 982
+        width: 151
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbea00b224760e950800000000000000
+      internalID: 6476289798045740733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 982
+        width: 153
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92a9846c0925d010800000000000000
+      internalID: 1212920807849304733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_2
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 980
+        width: 89
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3441a16f1b3f52620800000000000000
+      internalID: 2748871093243221059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 982
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d04277bd1aea140800000000000000
+      internalID: 4732898222381731151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_4
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 978
+        width: 149
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b8f880d3fb68610800000000000000
+      internalID: 1623194984571177792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_5
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 937
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1e280478b6d0870800000000000000
+      internalID: 8650688687895667173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_6
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 982
+        width: 145
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9e4b23724c59390800000000000000
+      internalID: -7812122305970771487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_7
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 982
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1c8f66edc43dc40800000000000000
+      internalID: 5535852885062500778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_8
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 978
+        width: 149
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c71c298ce95cdd0800000000000000
+      internalID: -2466390636622676984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_9
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 978
+        width: 149
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f756302bed7d07d0800000000000000
+      internalID: -2950563732046587911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_10
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 923
+        width: 146
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527b49b3e49fed5f0800000000000000
+      internalID: -729871975185074395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_11
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 982
+        width: 132
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ed5117268095da0800000000000000
+      internalID: -5955719813323694554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_12
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 978
+        width: 149
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506a7400c6f152510800000000000000
+      internalID: 1523658597656405509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_13
+      rect:
+        serializedVersion: 2
+        x: 2388
+        y: 982
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108a123c0b31b8a40800000000000000
+      internalID: 5371408630478383105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Fashion_3_14
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 978
+        width: 149
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89cfa2add40153d0800000000000000
+      internalID: -3219786908629481076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Text_Fashion_3_0: 6476289798045740733
+      Text_Fashion_3_1: 1212920807849304733
+      Text_Fashion_3_10: -729871975185074395
+      Text_Fashion_3_11: -5955719813323694554
+      Text_Fashion_3_12: 1523658597656405509
+      Text_Fashion_3_13: 5371408630478383105
+      Text_Fashion_3_14: -3219786908629481076
+      Text_Fashion_3_2: 2748871093243221059
+      Text_Fashion_3_3: 4732898222381731151
+      Text_Fashion_3_4: 1623194984571177792
+      Text_Fashion_3_5: 8650688687895667173
+      Text_Fashion_3_6: -7812122305970771487
+      Text_Fashion_3_7: 5535852885062500778
+      Text_Fashion_3_8: -2466390636622676984
+      Text_Fashion_3_9: -2950563732046587911
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

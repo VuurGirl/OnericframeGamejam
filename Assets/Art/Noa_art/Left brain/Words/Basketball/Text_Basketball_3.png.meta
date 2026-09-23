@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 29ecb1da7882647698c0f7dd189099b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7393627919676228779
+    second: Text_Basketball_3_0
+  - first:
+      213: -3958134162115145742
+    second: Text_Basketball_3_1
+  - first:
+      213: -1418711862854409572
+    second: Text_Basketball_3_2
+  - first:
+      213: 7220391262321486708
+    second: Text_Basketball_3_3
+  - first:
+      213: -5693051192557099952
+    second: Text_Basketball_3_4
+  - first:
+      213: 1679913285263740168
+    second: Text_Basketball_3_5
+  - first:
+      213: 1213485816146128463
+    second: Text_Basketball_3_6
+  - first:
+      213: -159296689904727620
+    second: Text_Basketball_3_7
+  - first:
+      213: 3980200463599274363
+    second: Text_Basketball_3_8
+  - first:
+      213: 2080517097721417235
+    second: Text_Basketball_3_9
+  - first:
+      213: -5610212839312411199
+    second: Text_Basketball_3_10
+  - first:
+      213: -4483200005787830767
+    second: Text_Basketball_3_11
+  - first:
+      213: -700772227135747181
+    second: Text_Basketball_3_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text_Basketball_3_0
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 982
+        width: 178
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba446b97b617b9660800000000000000
+      internalID: 7393627919676228779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_1
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 980
+        width: 89
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffc9cd53f1e119c0800000000000000
+      internalID: -3958134162115145742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_2
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1154
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c922eefc319bf4ce0800000000000000
+      internalID: -1418711862854409572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_3
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 1154
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba10a099bf33460800000000000000
+      internalID: 7220391262321486708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_4
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 978
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054258b7a183ef0b0800000000000000
+      internalID: -5693051192557099952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_5
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 982
+        width: 216
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80dca9d7b30405710800000000000000
+      internalID: 1679913285263740168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_6
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 937
+        width: 43
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e6d53abea27d010800000000000000
+      internalID: 1213485816146128463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_7
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 927
+        width: 149
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9455821801acdf0800000000000000
+      internalID: -159296689904727620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_8
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 978
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b790eafcb338c3730800000000000000
+      internalID: 3980200463599274363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_9
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 982
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ecfcef64b7fdc10800000000000000
+      internalID: 2080517097721417235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_10
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 978
+        width: 133
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5b27695258422b0800000000000000
+      internalID: -5610212839312411199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_11
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 982
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116bcf5095978c1c0800000000000000
+      internalID: -4483200005787830767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Basketball_3_12
+      rect:
+        serializedVersion: 2
+        x: 2301
+        y: 978
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b4d1d4f5b5646f0800000000000000
+      internalID: -700772227135747181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Text_Basketball_3_0: 7393627919676228779
+      Text_Basketball_3_1: -3958134162115145742
+      Text_Basketball_3_10: -5610212839312411199
+      Text_Basketball_3_11: -4483200005787830767
+      Text_Basketball_3_12: -700772227135747181
+      Text_Basketball_3_2: -1418711862854409572
+      Text_Basketball_3_3: 7220391262321486708
+      Text_Basketball_3_4: -5693051192557099952
+      Text_Basketball_3_5: 1679913285263740168
+      Text_Basketball_3_6: 1213485816146128463
+      Text_Basketball_3_7: -159296689904727620
+      Text_Basketball_3_8: 3980200463599274363
+      Text_Basketball_3_9: 2080517097721417235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
