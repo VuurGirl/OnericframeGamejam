@@ -3074,14 +3074,39 @@ MonoBehaviour:
   targetCamera: {fileID: 1860936486}
   wordPrefab: {fileID: 7859830469044120742, guid: b8ab7aa14fdcd984e87226961c275219, type: 3}
   allWords:
-  - word: COOL
+  - word: Blue
     correctZoneId: 0
     spritesPerLevel:
     - {fileID: -8203157240490012943, guid: 0d91bf3a84239364d8c929ea4d63420d, type: 3}
     - {fileID: -185735237813749920, guid: b9dd6e76344dd0c4fac4c47a4f27c13a, type: 3}
+    - {fileID: -185735237813749920, guid: b9dd6e76344dd0c4fac4c47a4f27c13a, type: 3}
+  - word: Pink
+    correctZoneId: 1
+    spritesPerLevel:
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
   - word: ALLO
     correctZoneId: 1
     spritesPerLevel:
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+  - word: Green
+    correctZoneId: 2
+    spritesPerLevel:
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+  - word: Yellow
+    correctZoneId: 3
+    spritesPerLevel:
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
+  - word: Orange
+    correctZoneId: 4
+    spritesPerLevel:
+    - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
     - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
     - {fileID: -3566593951523444751, guid: 398617bda212b5d4fa05a539ec8ede39, type: 3}
   spawnPadding: 1
