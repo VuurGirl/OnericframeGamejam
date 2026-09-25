@@ -3,15 +3,15 @@ using UnityEngine;
 public class WordDotFollower : MonoBehaviour
 {
     private Transform dot;
-    private Camera wordCamera; // camera die het woord toont (display 2)
-    private Camera dotCamera;  // camera die de stip toont (display 1)
+    private Camera wordCamera;
+    private Camera dotCamera;
 
     public void Init(Transform dotTransform, Camera wordCam, Camera dotCam)
     {
         dot = dotTransform;
         wordCamera = wordCam;
         dotCamera = dotCam;
-        UpdateDotPosition(); // meteen goed zetten, niet pas volgend frame
+        UpdateDotPosition();
     }
 
     void LateUpdate()
@@ -28,7 +28,7 @@ public class WordDotFollower : MonoBehaviour
         float dotDistance = dotCamera.nearClipPlane + 1f;
         Vector3 dotWorldPos = dotCamera.ViewportToWorldPoint(
             new Vector3(viewportPos.x, viewportPos.y, dotDistance));
-        dotWorldPos.z = dot.position.z; // eigen Z van de stip behouden (sorting)
+        dotWorldPos.z = dot.position.z;
 
         dot.position = dotWorldPos;
     }

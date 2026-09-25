@@ -5,7 +5,7 @@ public class WordSpawner : MonoBehaviour
 {
     public Camera targetCamera;
     public GameObject wordPrefab;
-    public List<WordData> allWords;   // eenmalig invullen in Inspector
+    public List<WordData> allWords;
     public float spawnPadding = 1f;
 
     [Header("Overlap check")]
@@ -18,6 +18,13 @@ public class WordSpawner : MonoBehaviour
     [Header("Stip op display 1")]
     public Camera dotCamera;
     public GameObject dotPrefab;
+
+    [Header("Feedback bij drop")]
+    public GameObject correctFeedbackPrefab;
+    public GameObject wrongFeedbackPrefab;
+    public float feedbackDuration = 1f;
+    public LayerMask display1Layer;
+    public LayerMask display2Layer;
 
     private Queue<WordData> queue = new Queue<WordData>();
     private readonly List<Transform> activeWords = new List<Transform>();
@@ -60,6 +67,9 @@ public class WordSpawner : MonoBehaviour
         WordController controller = obj.AddComponent<WordController>();
         controller.data = data;
         controller.spawner = this;
+        controller.SetFeedbackSettings(
+            correctFeedbackPrefab, wrongFeedbackPrefab, feedbackDuration,
+            targetCamera, dotCamera, display1Layer, display2Layer);
 
         GameObject dotObj = Instantiate(dotPrefab);
         dotObj.name = data.word + "_Dot";
@@ -75,8 +85,6 @@ public class WordSpawner : MonoBehaviour
         activeWords.RemoveAll(t => t == null);
 
         bool completed = wasCorrect && data.level > data.MaxLevel;
-
-        ZoneVisualManager.Instance?.UpdateZone(data.correctZoneId, data.level, completed);
 
         if (completed)
         {

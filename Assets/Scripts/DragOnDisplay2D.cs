@@ -5,7 +5,7 @@ public class DragOnDisplay2D : MonoBehaviour
 {
     public Camera dragCamera;
     public int displayIndex = 1;
-    public LayerMask dropZoneLayer; // layer met alleen de 5 DropZones
+    public LayerMask dropZoneLayer;
 
     private Transform dragging;
     private float dragDepth;

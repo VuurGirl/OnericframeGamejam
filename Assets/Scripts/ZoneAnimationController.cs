@@ -2,25 +2,25 @@ using UnityEngine;
 
 public class ZoneAnimationController : MonoBehaviour
 {
-    public int zoneId; // moet matchen met WordData.correctZoneId
+    public int zoneId;
 
     [Tooltip("Index 0 = level 1, Index 1 = level 2, Index 2 = level 3, Index 3 (laatste) = voltooid")]
     public GameObject[] levelAnimations;
 
     void Start()
     {
-        ShowLevel(1); // meteen bij start de eerste animatie van elke zone tonen
+        ShowLevel(1);
     }
 
     public void ShowLevel(int level)
     {
-        int index = Mathf.Clamp(level - 1, 0, levelAnimations.Length - 2); // nooit per ongeluk de "voltooid"-animatie via level triggeren
+        int index = Mathf.Clamp(level - 1, 0, levelAnimations.Length - 2);
         SetActiveIndex(index);
     }
 
     public void ShowCompleted()
     {
-        SetActiveIndex(levelAnimations.Length - 1); // laatste animatie, blijft daarna definitief staan
+        SetActiveIndex(levelAnimations.Length - 1);
     }
 
     private void SetActiveIndex(int index)
