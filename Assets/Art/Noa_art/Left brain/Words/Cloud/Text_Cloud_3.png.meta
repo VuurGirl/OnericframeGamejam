@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: dd3c0cf6a827f40b8a693603eb15d97e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9043227043379540119
+    second: Text_Cloud_3_0
+  - first:
+      213: -810388396876165203
+    second: Text_Cloud_3_1
+  - first:
+      213: 8662855216225778581
+    second: Text_Cloud_3_2
+  - first:
+      213: -1288402230244576014
+    second: Text_Cloud_3_3
+  - first:
+      213: -4199138512535900235
+    second: Text_Cloud_3_4
+  - first:
+      213: 1434717771218827474
+    second: Text_Cloud_3_5
+  - first:
+      213: -1239884700930499069
+    second: Text_Cloud_3_6
+  - first:
+      213: 5928142510851592910
+    second: Text_Cloud_3_7
+  - first:
+      213: 1871298480182617752
+    second: Text_Cloud_3_8
+  - first:
+      213: -279954143746013420
+    second: Text_Cloud_3_9
+  - first:
+      213: -563727182854937821
+    second: Text_Cloud_3_10
+  - first:
+      213: 2585835223413958375
+    second: Text_Cloud_3_11
+  - first:
+      213: -6309164663182376078
+    second: Text_Cloud_3_12
+  - first:
+      213: -4748063001344858216
+    second: Text_Cloud_3_13
+  - first:
+      213: 7149471717895034616
+    second: Text_Cloud_3_14
+  - first:
+      213: -6494740286302896758
+    second: Text_Cloud_3_15
+  - first:
+      213: -2506280876937594390
+    second: Text_Cloud_3_16
+  - first:
+      213: 1588822160643124993
+    second: Text_Cloud_3_17
+  - first:
+      213: -3987256632855724002
+    second: Text_Cloud_3_18
+  - first:
+      213: -5215064275677735627
+    second: Text_Cloud_3_19
+  - first:
+      213: -7046313357344837425
+    second: Text_Cloud_3_20
+  - first:
+      213: -2588275637520544805
+    second: Text_Cloud_3_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Text_Cloud_3_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 982
+        width: 268
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f0828cae0008280800000000000000
+      internalID: -9043227043379540119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1154
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf0912fb0ce0c4f0800000000000000
+      internalID: -810388396876165203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1154
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bf6cfdbe4a83870800000000000000
+      internalID: 8662855216225778581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_3
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 982
+        width: 36
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f473727ffcae1ee0800000000000000
+      internalID: -1288402230244576014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_4
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 1154
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa2a555c9a9b5c0800000000000000
+      internalID: -4199138512535900235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 982
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d83072263429e310800000000000000
+      internalID: 1434717771218827474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 978
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e98960f6b0bcee0800000000000000
+      internalID: -1239884700930499069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 982
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec29339743ef44250800000000000000
+      internalID: 5928142510851592910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_8
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 982
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896630c9d0038f910800000000000000
+      internalID: 1871298480182617752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_9
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 978
+        width: 133
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417ce9480376d1cf0800000000000000
+      internalID: -279954143746013420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 982
+        width: 145
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32323bb2d1d3d28f0800000000000000
+      internalID: -563727182854937821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_11
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 978
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e628437f6bb2e320800000000000000
+      internalID: 2585835223413958375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_12
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 978
+        width: 151
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273419d8a285178a0800000000000000
+      internalID: -6309164663182376078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_13
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 982
+        width: 89
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8972aa94bdd7b1eb0800000000000000
+      internalID: -4748063001344858216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_14
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 978
+        width: 133
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6d5dcd5a6083360800000000000000
+      internalID: 7149471717895034616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_15
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 927
+        width: 149
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d3f76ce1c0ed5a0800000000000000
+      internalID: -6494740286302896758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_16
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 978
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9b7ce32d6e73dd0800000000000000
+      internalID: -2506280876937594390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_17
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 978
+        width: 144
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fe6605651ac0610800000000000000
+      internalID: 1588822160643124993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_18
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 1043
+        width: 86
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e108052c73b6aa8c0800000000000000
+      internalID: -3987256632855724002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_19
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 982
+        width: 36
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535166ffbae50a7b0800000000000000
+      internalID: -5215064275677735627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_20
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 982
+        width: 132
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0fe5f9557763e90800000000000000
+      internalID: -7046313357344837425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Text_Cloud_3_21
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 923
+        width: 146
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb4acc5509941cd0800000000000000
+      internalID: -2588275637520544805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Text_Cloud_3_0: -9043227043379540119
+      Text_Cloud_3_1: -810388396876165203
+      Text_Cloud_3_10: -563727182854937821
+      Text_Cloud_3_11: 2585835223413958375
+      Text_Cloud_3_12: -6309164663182376078
+      Text_Cloud_3_13: -4748063001344858216
+      Text_Cloud_3_14: 7149471717895034616
+      Text_Cloud_3_15: -6494740286302896758
+      Text_Cloud_3_16: -2506280876937594390
+      Text_Cloud_3_17: 1588822160643124993
+      Text_Cloud_3_18: -3987256632855724002
+      Text_Cloud_3_19: -5215064275677735627
+      Text_Cloud_3_2: 8662855216225778581
+      Text_Cloud_3_20: -7046313357344837425
+      Text_Cloud_3_21: -2588275637520544805
+      Text_Cloud_3_3: -1288402230244576014
+      Text_Cloud_3_4: -4199138512535900235
+      Text_Cloud_3_5: 1434717771218827474
+      Text_Cloud_3_6: -1239884700930499069
+      Text_Cloud_3_7: 5928142510851592910
+      Text_Cloud_3_8: 1871298480182617752
+      Text_Cloud_3_9: -279954143746013420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
